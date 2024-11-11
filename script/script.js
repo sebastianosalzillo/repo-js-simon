@@ -11,7 +11,7 @@ for (let index = 0; index < 5; index++) {
 }
 
 setTimeout(function () {
-    randomWriter.innerHTML = ''; // Pulisce l'area per inserire i nuovi input
+    randomWriter.innerHTML = ''; 
     for (let i = 1; i <= 5; i++) {
         randomWriter.innerHTML += `
             <div class="col-12 col-md-2 my-2">
